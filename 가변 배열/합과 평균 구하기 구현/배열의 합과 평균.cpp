@@ -3,7 +3,7 @@ using namespace std;
 
 
 int arrSize = 0;
-int iArr[10];
+int iArr[10];											// 배열의 최대 크기 설정
 int i = 0;
 
 int ArrLen()
@@ -18,7 +18,7 @@ int ArrCpnt()
 {
 	for (i = 0; i < arrSize; i++)
 	{
-		cout << i + 1 << "번째 숫자를 입력하세요. : ";	// 배열의 숫자 정하기
+		cout << i + 1 << "번째 숫자를 입력하세요. : ";	// 배열의 구성 숫자 정하기
 		cin >> iArr[i];
 	}
 	return iArr[i];
@@ -43,9 +43,9 @@ int ArrAvg()
 
 int main()
 {
-	ArrLen();
-	ArrCpnt();
+	ArrLen();											// 배열의 길이 입력
+	ArrCpnt();											// 배열 구성 입력
 
-	cout << "배열의 총 합은 : " << ArrSum() << endl;
-	cout << "배열의 평균은 : " << ArrAvg() << endl;
+	cout << "배열의 총 합은 : " << ArrSum() << endl;		// 배열의 총 합 출력
+	cout << "배열의 평균은 : " << ArrAvg() << endl;		// 배열의 평균 출력
 }

@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="배열의 길이, 숫자, 합, 평균.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Arr.cpp">
